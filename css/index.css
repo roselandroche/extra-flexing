@@ -77,3 +77,15 @@ nav {
 	display: flex;
 	justify-content: center;
 }
+
+footer {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+img {
+	width: 40%;
+}
