@@ -50,7 +50,7 @@ table {
 /* MY CODE */
 
 .container {
-	margin: 0 auto;
+	font-family: "Myriad Pro";
 }
 
 header {
@@ -80,6 +80,13 @@ p {
 nav {
 	display: flex;
 	justify-content: center;
+}
+
+button {
+	border: 1px solid #4f9dd6;
+	background-color: white;
+	border-radius: 12px;
+	padding: 5px 15px;
 }
 
 footer {
