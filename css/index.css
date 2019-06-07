@@ -49,8 +49,9 @@ table {
 
 /* MY CODE */
 
-.container {
-	font-family: "Arial", "Helvetica", sans-serif;
+body {
+	width: 800px;
+	margin: 0px 20px;
 }
 
 header {
@@ -60,7 +61,6 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 50px 10px 80px 10px;
-	margin: 0px 40px 15px 40px;
 }
 
 h1, p {
@@ -87,16 +87,19 @@ button {
 	background-color: white;
 	border-radius: 12px;
 	padding: 5px 15px;
+	margin: 20px;
 }
 
 footer {
 	display: flex;
 	flex-flow: column wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	width: 80%;
+	width: 50%;
+	height: 2000px;
 }
 
 img {
-	width: 40%;
+	width: 100%;
+	height: auto;
 }
