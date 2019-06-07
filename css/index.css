@@ -50,7 +50,7 @@ table {
 /* MY CODE */
 
 .container {
-	font-family: "Myriad Pro";
+	font-family: "Arial", "Helvetica", sans-serif;
 }
 
 header {
@@ -59,12 +59,12 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 80%;
-	padding: 30px 15px;
+	padding: 50px 10px 80px 10px;
+	margin: 0px 40px 15px 40px;
 }
 
 h1, p {
-	font-family: "Myriad Pro";
+	font-family: "Arial", "Helvetica", sans-serif;
 	color: white;
 }
 
