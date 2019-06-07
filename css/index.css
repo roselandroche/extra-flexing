@@ -83,11 +83,18 @@ nav {
 }
 
 button {
-	border: 1px solid #4f9dd6;
+	border: 2px solid #4f9dd6;
 	background-color: white;
 	border-radius: 12px;
 	padding: 5px 15px;
 	margin: 20px;
+	font-size: 12px;
+	color: #4f9dd6;
+}
+
+button:hover {
+	background-color: #4f9dd6;
+	color: white;
 }
 
 footer {
