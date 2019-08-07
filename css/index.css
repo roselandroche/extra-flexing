@@ -46,3 +46,67 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* MY CODE */
+
+body {
+	width: 800px;
+	margin: 0px 20px;
+}
+
+header {
+	background-image: linear-gradient(to top right, #5586ba, #ff5e99);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 10px 80px 10px;
+}
+
+h1, p {
+	font-family: "Arial", "Helvetica", sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+p {
+	width: 80%;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	border: 2px solid #4f9dd6;
+	background-color: white;
+	border-radius: 12px;
+	padding: 5px 15px;
+	margin: 20px;
+	font-size: 12px;
+	color: #4f9dd6;
+}
+
+button:hover {
+	background-color: #4f9dd6;
+	color: white;
+}
+
+footer {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+	height: 2000px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
